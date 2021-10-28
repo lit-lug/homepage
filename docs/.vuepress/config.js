@@ -33,7 +33,7 @@ module.exports = {
     logo: 'https://image.gaoajia.com/2021/10/28/d7b19b2e89822.png', // 导航栏logo
     repo: 'lit-lug/homepage', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
-    lastUpdated: '上次更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
+    lastUpdated: 'Last Update', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
 
     // docsDir: 'docs', // 编辑的文件夹
     // editLinks: true, // 编辑链接
@@ -114,16 +114,16 @@ module.exports = {
     ['thirdparty-search', { // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
       thirdparty: [ // 可选，默认 []
         {
-          title: '在Google中搜索',
+          title: 'Search in Google',
           frontUrl: 'https://www.google.com/search?q=', // 搜索链接的前面部分
           behindUrl: '' // 搜索链接的后面部分，可选，默认 ''
         },
         {
-          title: '在Baidu中搜索',
+          title: 'Search in Baidu',
           frontUrl: 'https://www.baidu.com/s?ie=UTF-8&wd=',
         },
         {
-          title: '在Bing中搜索',
+          title: 'Search in Bing',
           frontUrl: 'https://cn.bing.com/search?q='
         }
       ]
