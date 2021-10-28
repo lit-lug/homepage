@@ -14,10 +14,10 @@ cd docs/.vuepress/dist
 
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:gaoajia/GiWiFi-Wiki.git
+  githubUrl=git@github.com:lit-lug/homepage.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://gaoajia:${GITHUB_TOKEN}@github.com/gaoajia/GiWiFi-Wiki.git
+  githubUrl=https://lit-lug:${GITHUB_TOKEN}@github.com/lit-lug/homepage.git 
   git config --global user.name "gaoajia"
   git config --global user.email "gaoajia@qq.com"
 fi
