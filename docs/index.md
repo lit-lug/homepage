@@ -14,7 +14,7 @@ features:
     details: LIT LUG has organized a number of meaningful activities, such as the GNU/Linux Install Party and Weekly Party.
   - title: Join us
     details: We are now looking for calibres who are passionate in linux to join our organization.Interested parties please click here.
-    link: /pages/joinus/
+    link: /pages/zhaoxin/
 
 
 postList: none
