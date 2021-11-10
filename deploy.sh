@@ -27,7 +27,7 @@ git commit -m "${msg}"
 git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
 
 # deploy to coding pages
-echo 'litunix.org' > CNAME  # 自定义域名
+echo 'www.litunix.org' > CNAME  # 自定义域名
 
 if [ -z "$CODING_TOKEN" ]; then  # -z 字符串 长度为0则为true；$CODING_TOKEN来自于github仓库`Settings/Secrets`设置的私密环境变量
    codingUrl=git@e.coding.net:litlug/homepage/homepage.git
