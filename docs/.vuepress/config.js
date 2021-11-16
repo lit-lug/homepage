@@ -53,8 +53,8 @@ module.exports = {
     //   '图标地址2'
     // ],
      bodyBgImg: [
-       'https://image.gaoajia.com/2021/10/28/f66edf3d56b22.jpg',
-       'https://image.gaoajia.com/2021/10/28/f371a6a145150.jpg',
+       'https://image.iluoli.ren/2021/11/17/3910677424f4a.jpg',
+       'https://image.iluoli.ren/2021/11/17/5a892c74a2112.jpg',
      ], // body背景大图，默认无。 单张图片 String || 多张图片 Array, 多张图片时每隔15秒换一张。
      bodyBgImgOpacity: 0.7, // body背景图透明度，选值 0 ~ 1.0, 默认0.5
 
