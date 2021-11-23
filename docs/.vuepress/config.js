@@ -10,7 +10,7 @@ module.exports = {
     ['link', { rel: 'icon', href: '/img/64x64.png' }], //favicons，资源放在public文件夹
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['meta', { name: 'keywords', content: 'vuepress,theme,blog,vdoing'}],
-    ['meta', { name: 'theme-color', content: '#11a8cd'}], // 移动浏览器主题颜色
+    ['meta', { name: 'theme-color', content: '#ffffff'}], // 移动浏览器主题颜色
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['meta', { name: 'msapplication-TileImage', content: '/img/128x128.png' }],
