@@ -17,6 +17,6 @@ features:
     link: /pages/zhaoxin/
 
 
-postList: none
+postList: detailed
 ---
 
