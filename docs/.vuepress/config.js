@@ -52,11 +52,11 @@ module.exports = {
     //   '图标地址1',
     //   '图标地址2'
     // ],
-     bodyBgImg: [
-       'https://image.iluoli.ren/2021/11/17/3910677424f4a.jpg',
-       'https://image.iluoli.ren/2021/11/17/5a892c74a2112.jpg',
-     ], // body背景大图，默认无。 单张图片 String || 多张图片 Array, 多张图片时每隔15秒换一张。
-     bodyBgImgOpacity: 0.7, // body背景图透明度，选值 0 ~ 1.0, 默认0.5
+    // bodyBgImg: [
+    //   'https://image.iluoli.ren/2021/11/17/3910677424f4a.jpg',
+    //   'https://image.iluoli.ren/2021/11/17/5a892c74a2112.jpg',
+    // ], // body背景大图，默认无。 单张图片 String || 多张图片 Array, 多张图片时每隔15秒换一张。
+    // bodyBgImgOpacity: 0.7, // body背景图透明度，选值 0 ~ 1.0, 默认0.5
 
     // categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
 
