@@ -1,6 +1,9 @@
 const nav = require('./config/nav.js');
 const base = require('../../base.js');
 const htmlModules = require('./config/htmlModules.js');
+const feed_options = {
+  canonical_base: 'https://www.litunix.org',
+};
 
 module.exports = {
   title: "LUG @ LIT",
@@ -81,7 +84,7 @@ module.exports = {
         {
           iconClass: 'icon-youjian',
           title: '意见反馈邮件',
-          link: 'mailto:gaoajia@qq.com'
+          link: 'mailto:icpove@litunix.org'
         },
         {
           iconClass: 'icon-github',
@@ -103,6 +106,7 @@ module.exports = {
     // }],
 
     ['vuepress-plugin-simple-analytics'],
+    [ 'feed', feed_options ],
     ['@vuepress/plugin-pwa' , {
       serviceWorker: true,
       updatePopup: {
