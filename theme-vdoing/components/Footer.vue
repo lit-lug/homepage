@@ -12,17 +12,16 @@
     </div>
 
     <!--Vdoing主题遵循MIT协议，完全开源且免费。如果您对主题的修改并不大，希望您保留主题的链接。-->
-    Powered by
+    Theme by
     <a
-      href="https://vuepress.vuejs.org/"
+      href="https://github.com/xugaoyi/vuepress-theme-vdoing"
       target="_blank"
-      title="本站由vuepress驱动"
-    >VuePress</a>
+      title="本站主题"
+      >Vdoing</a
+    >
     <template v-if="footer">
       | Copyright © {{ footer.createYear }}-{{ new Date().getFullYear() }}
-      <span
-        v-html="footer.copyrightInfo"
-      ></span>
+      <span v-html="footer.copyrightInfo"></span>
     </template>
   </div>
 </template>
