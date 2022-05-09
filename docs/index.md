@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://image.gaoajia.com/2021/10/28/d7b19b2e89822.png
+heroImage: https://image.gaoajia.com/i/2021/10/28/d7b19b2e89822.png
 heroText: LIT LUG
 tagline: 🚀Luoyang Institute of Science and Technology GNU/Linux User Group
 actionText: Get Started  →
