@@ -1,0 +1,16 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "LUG @ LIT",
+    "home_page_url": "https://www.litunix.org",
+    "feed_url": "https://www.litunix.org/feed.json",
+    "description": "Luoyang Institute of Science and Technology Linux User Group",
+    "items": [
+        {
+            "id": "https://www.litunix.org/pages/eb5b06/",
+            "url": "https://www.litunix.org/pages/eb5b06/",
+            "title": "Title used in feed",
+            "summary": "Description used in feed",
+            "date_modified": "2022-01-18T19:47:28.000Z"
+        }
+    ]
+}
